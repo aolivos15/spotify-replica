@@ -1,0 +1,131 @@
+html, body {
+    width: 100%;
+}
+
+.white-toggler.navbar-toggler {
+    border: 0px;
+}
+
+.white-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: greenyellow;
+}
+
+.bg-dark-green {
+    background-image: linear-gradient(-5deg, #121212 80%, #1b9a48);
+    color: white;
+}
+
+.bg-dark-green .row, .bg-dark-gray .row, .bg-darker-gray .row {
+    max-width: 628px;
+}
+
+.bg-dark-green h2 {
+    color: #a7a7a7;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bg-dark-gray {
+    background-color: #232323;
+}
+
+.bg-dark-gray a {
+    color: white;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+.bg-dark-gray a:hover {
+    text-decoration: underline;
+}
+
+.bg-darker-gray {
+    background-color: #121212;
+}
+
+.bg-darker-gray button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #1ed760;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.footer-black {
+    background-color: black;
+    color: white;
+}
+
+.footer-black .fa-brands {
+    padding: 14px;
+    font-size: 24px;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footer-black .fa-brands:hover, .footer-black a:hover {
+    color: #1ed760;
+}
+
+.footer-black h3 {
+    color: #919496;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 1rem auto 2rem;
+}
+
+.footer-black a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-span {
+    font-size: small;
+    color: #919496;
+    margin-right: 1rem;
+}
+
+.footer-span a {
+    color: #919496;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 70px */
+@media (min-width: 1200px) {
+    .responsive-h1 {
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
+  /* If the screen size is smaller than 1200px, set the font-size to 7% viewport width */
+@media (max-width: 1199.98px) {
+    .responsive-h1 {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 992px) {
+    .spotify-logo {
+        width: 132px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .spotify-logo {
+        width: 89px;
+    }
+}
